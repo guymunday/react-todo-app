@@ -99,7 +99,7 @@ function App() {
   if (error) return <div>Error fetching todos!</div>;
 
   return (
-    <div className="vh-100 code flex flex-column items-center bg-purple white pa3 fl-1">
+    <div className="code flex flex-column items-center bg-purple white pa3 fl-1">
       <h1 className="f2 tc">
         GraphQL Checklist{" "}
         <span role="img" aria-label="checkmark">
