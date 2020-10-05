@@ -109,7 +109,14 @@ function App() {
       <h2 className="f4 tc">
         To-do CRUD app built with React, Apollo {"&"} Hasura.
       </h2>
-      <p className="mb4 tc">Double click a to-do item to mark as complete.</p>
+      <p className="mb4 tc">
+        Double click a to-do item to mark as complete. (Feel free to play around
+        or even leave me a message{" "}
+        <span role="img" aria-label="smiley face">
+          🙂
+        </span>
+        )
+      </p>
       <form onSubmit={handleAddTodo} className="mb3">
         <input
           className="pa2 f4 b--solid"
