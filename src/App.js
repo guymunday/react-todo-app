@@ -119,13 +119,13 @@ function App() {
       </p>
       <form onSubmit={handleAddTodo} className="mb3">
         <input
-          className="pa2 f4 b--solid"
+          className="pa2 f4 b--solid b--black"
           type="text"
           placeholder="Write a task"
           onChange={(event) => setTodoText(event.target.value)}
           value={todoText}
         />
-        <button className="pa2 f4 bg-white b--gray b--solid" type="submit">
+        <button className="pa2 f4 bg-white b--black b--solid" type="submit">
           Create
         </button>
       </form>
