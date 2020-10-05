@@ -95,8 +95,18 @@ function App() {
     }
   }
 
-  if (loading) return <div>Loading todos...</div>;
-  if (error) return <div>Error fetching todos!</div>;
+  if (loading)
+    return (
+      <div className="code flex flex-column items-center bg-purple white pa3 fl-1">
+        <h1 className="f2 tc">Loading to-dos...</h1>
+      </div>
+    );
+  if (error)
+    return (
+      <div className="code flex flex-column items-center bg-purple white pa3 fl-1">
+        <h1 className="f2 tc">Error fetching to-dos...</h1>
+      </div>
+    );
 
   return (
     <div className="code flex flex-column items-center bg-purple white pa3 fl-1">
