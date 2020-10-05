@@ -12,7 +12,7 @@ const client = new ApolloClient({
 
 ReactDOM.render(
   <ApolloProvider client={client}>
-    <main style={{ background: "purple" }}>
+    <main style={{ background: "purple", minHeight: "100vh" }}>
       <App />
     </main>
   </ApolloProvider>,
